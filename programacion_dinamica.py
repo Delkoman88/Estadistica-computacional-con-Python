@@ -21,6 +21,9 @@ def fibonacci_dinamico(n, memo = {}):
         return resultado
 
 if __name__ == '__main__':
+
+    try:
+
     sys.setrecursionlimit(10002)
     n = int(input('Escoge un numero: '))
 
